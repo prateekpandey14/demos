@@ -6,7 +6,7 @@ metadata:
 spec:
   validationFailureAction: enforce
   webhookTimeoutSeconds: 30
-  failurePolicy: Fail  
+  failurePolicy: Fail
   rules:
     - name: check-attestions
       match:
